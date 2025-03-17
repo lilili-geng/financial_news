@@ -1,0 +1,2 @@
+2025-03-17T01:58:51.421Z [GET] https://crt.linktech.one/link/wallet_balance
+{"code":0,"message":"","data":{"withdraw_box_partner_token_balance":495,"withdraw_box_linkx_token_balance":794.3271521018756,"admin_address_bnb_balance":0.04990199104903381}}
