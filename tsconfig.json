@@ -1,14 +1,17 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "CommonJS", // 或者 "ESNext"，根据你的需求
-      "outDir": "./dist",
-      "rootDir": "./src",
-      "strict": true,
-      "esModuleInterop": true, // 允许兼容 CommonJS 和 ES 模块
-      "skipLibCheck": true,
-      "useUnknownInCatchVariables": false
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS", 
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true, 
+    "skipLibCheck": true,
+    "useUnknownInCatchVariables": false,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

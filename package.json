@@ -1,9 +1,9 @@
 {
-  "name": "web3-node",
+  "name": "financial_news",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec ts-node src/index.ts",
+    "dev": "nodemon --exec ts-node src/index.ts",
     "build": "rimraf ./dist && cpx ./package.json ./dist && cpx ./public/* ./dist/public && tsc"
   },
   "author": "",
@@ -15,6 +15,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mysql2": "^3.13.0",
+    "playwright": "^1.52.0",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
