@@ -1,4 +1,4 @@
-# 项目名称
+# financial_news
 
 此项目使用 TypeScript 构建，并通过 Playwright 进行数据抓取。
 
